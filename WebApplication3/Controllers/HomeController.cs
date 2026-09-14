@@ -20,6 +20,7 @@ namespace WebApplication3.Controllers
 
         public IActionResult Privacy()
         {
+            throw new Exception("Hello");
             return View();
         }
 
